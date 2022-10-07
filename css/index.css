@@ -1,0 +1,195 @@
+.navbar {
+  color:white;
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-top: 30px;
+    font-family: 'Montserrat-bold', sans-serif;
+}
+
+.h2 {
+    font-size: 3rem;
+    line-height: 1.5;  
+}
+
+.h3 {
+    font-weight: bold;
+    font-size: 3rem;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.meet-new {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding-left: 150px;
+    font-weight: bold;
+    font-family: 'Montserrat' ;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    text-align: left;
+} 
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5; 
+}
+
+.small-heading {
+    font-size: 1.rem;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 80px;
+    color: #ff4c68;
+}
+
+/* .container-fluid {
+  padding: 2% 15%; 
+} */
+
+/* coloured section */
+.coloured-section {
+    background-color: #ff4c68;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+/* white section */
+.white-section {
+    background-color: #fff;
+    color: #000;
+    margin-top: 3%;
+
+}
+
+.rotate-img {
+    transform: rotate(25deg);
+    position: absolute;
+    width: 60%;
+    margin-top: 7%;
+    margin-left: 3%;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: Montserrat-Light;
+}
+
+/* download buttons */
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+#features {
+    background-color: #fff;
+    position: relative;
+}
+
+.fa-solid {
+    color:#ef8172;
+    margin-bottom: 1rem;
+    width: 50px;
+    height: 50px;
+}
+
+.fa-solid:hover {
+    color:#ff4c68;
+}
+
+/* testimonial  */
+#testimonials {
+    background-color: #ef8172;
+    font-family: 'Montserrat-bold', sans-serif;; 
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    display: flex;
+    margin: 5% 7%;
+}
+
+.plan {
+    margin: 7%;
+}
+
+.card-group {
+    margin: auto;
+}
+
+@media screen {
+    .rotate-img {
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+}
+
+.moredogs {
+    font-weight: 5rem;
+    color: light;
+    font-size: 25px;
+    margin-top: 2%;
+    margin-bottom: 10PX;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+}
+
+.moredogs:hover {
+    background-color: light;
+}
+
+/* call to action section */
+
+.cta-heading {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.social-icons { 
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+/* footer section*/
+#footer{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
